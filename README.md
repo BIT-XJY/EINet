@@ -1,7 +1,7 @@
 # EINet
 The official code and the benchmark for our paper: **Explicit Interaction for Fusion-Based Place Recognition**.
 
-[Jingyi Xu](https://github.com/BIT-XJY), [Junyi Ma](https://github.com/BIT-MJY),  Qi Wu, Zijie Zhou, Yue Wang, Xieyuanli Chen, Ling Pei*
+[Jingyi Xu](https://github.com/BIT-XJY), [Junyi Ma](https://github.com/BIT-MJY),  [Qi Wu](https://github.com/Gatsby23), [Zijie Zhou](https://github.com/ZhouZijie77), Yue Wang, [Xieyuanli Chen](https://github.com/Chen-Xieyuanli), Ling Pei*
 
 Coming soon ...
 
