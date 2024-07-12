@@ -1,0 +1,26 @@
+# Dataset configs in supervised-learning scheme in NUSC-PR
+
+locations: ['boston-seaport', 'singapore-onenorth', 'singapore-queenstown', 'singapore-hollandvillage']
+locations_abbr: ['bs', 'son', 'sq', 'shv']
+distance_interval: 1.0
+date_threshold_bs: 105
+date_threshold_son: 50
+date_threshold_sq: 105
+date_threshold_shv: 50
+val_ratio: 0.25
+positive_distance_threshold: 9
+negative_distance_threshold: 18
+nbr_positive_samples: 2
+nbr_negative_samples: 4
+
+data_root:
+  # nuscenes path
+  nusc_root: '/media/xjy/T1/nuscenes/raw_data'
+  # path to basic infos
+  save_root_basic_infos: '/home/xjy/dev/EINet/NUSC-PR/supervised_data/generate_basic_infos'
+  # path to splitted dataset
+  save_root_splitted_data: '/home/xjy/dev/EINet/NUSC-PR/supervised_data/split_dataset'
+  # path to mapping from query to reference
+  save_root_select_by_dis: '/home/xjy/dev/EINet/NUSC-PR/supervised_data/select_pos_neg_samples_by_dis'
+  # path to selected indices converted from save_root_select_by_dis
+  save_root_selected_indices: '/home/xjy/dev/EINet/NUSC-PR/supervised_data/generate_selected_indicies'

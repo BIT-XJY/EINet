@@ -1,0 +1,18 @@
+locations: ['boston-seaport', 'singapore-onenorth', 'singapore-queenstown', 'singapore-hollandvillage']
+locations_abbr: ['bs', 'son', 'sq', 'shv']
+
+num_pos: 2
+num_neg: 4
+positive_distance_threshold: 9
+negative_time_threshold: 6  # 6 frames -> 3 s
+use_date_date_threshold: False
+date_threshold: 105  # 105 for bs and son
+
+
+data_root:
+  # nuscenes path
+  nusc_root: '/media/xjy/T1/nuscenes/raw_data'
+  # path to basic infos
+  save_root_basic_infos: '/home/xjy/dev/EINet/NUSC-PR/self_supervised_data/generate_basic_infos'
+  # path to saved datasets
+  save_root_splitted_data: '/home/xjy/dev/EINet/NUSC-PR/self_supervised_data/split_dataset'
